@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag football</title>
+    <style>
+    /*NÃO ENSINOU AINDA*/
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+    /*NÃO ENSINOU AINDA*/
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            z-index: 1;
+            position: sticky;
+            top: 0;
+            background: rgb(131, 24, 24);
+            box-shadow: 5px 5px 15px rgba(70, 69, 69, 0.219);
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+        .logo {
+            color: #fff;
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        /*Links da navbar*/
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+        .nav-links li {
+            margin: 0 15px;
+        }
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .nav-links a:hover {
+            border-top: 2px solid #fff;
+        }
+        /*Espaçamentos*/
+        .bloco.um{
+            margin-top: 600px;
+        }
+        .bloco{
+            width: 50%;
+            margin: 50px;
+            margin-left: 25%;
+        }
+        p{
+            text-indent: 40px;
+        }
+        .curiosidades li, h2,h3{
+            margin-bottom: 15px;
+        }
+        .imagemfundo{
+            z-index: -10;
+            position: fixed;
+            margin: auto;
+            width: 100%;
+            height: 600px;
+            background-image: url("flagfundo2.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        .textoimagem{
+            color: #360000;
+            background: rgba(163, 163, 163, 0.705);
+            padding: 40px 20px;
+            height: 250px;
+            position: absolute;
+            top: 60%;
+            left: 80%;
+            transform: translate(-60%,-80%);
+            width: 30%;
+            box-shadow: 5px 5px 15px rgba(70, 69, 69, 0.219);
+            border-radius: 30px;
+        }
+        .textoimagem h2{
+            text-align: center;
+            font-size: 50px;
+        }
+        .textoimagem h6{
+            text-align: center;
+            font-size: 13px;
+            font-weight: 100;
+        }
+        img{
+            width: 675px;
+        }
+        .link-img{
+            display: block;
+            margin-bottom: 40px;
+        }
+        .link-img, .link-img:visited{
+            color: red;
+        }
+        .fundobranco{
+            z-index: 5;
+            box-shadow: 5px 5px 15px rgba(70, 69, 69, 0.219);
+            background: #fff;
+            padding-bottom: 10px;
+        }
+        h2.um{
+            padding-top: 80px;
+        }
+        footer{
+            padding: 50px;
+            text-align: center;
+            color: #fff;
+            height: 100px;
+            background-color: #360000;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="" class="logo">Flag Football</a>
+                <ul class="nav-links">
+                    <li><a href="#His_Olimp">OLIMPÍADAS</a></li>
+                    <li><a href="#His_FlagF">HISTÓRIA</a></li>
+                    <li><a href="#Regras">REGRAS</a></li>
+                    <li><a href="#Acessorios">ACESSÓRIOS</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="fundo">
+    <div class="imagemfundo"></div>
+    <div id="His_Olimp" class="textoimagem">
+        <h2>Tudo sobre o Flag Football</h2>
+        <h6>Veremos um pouco sobre a hístoria, regras, entre outros</h6>
+    </div>
+    </div>
+    <!--História das olimpíadas:-->
+    <div class="fundobranco">
+        <div class="bloco um">
+            <h2 class="h2 um">História das Olimpíadas</h2>
+            <img id="His_Olimp" src="olimpiadasflag.webp" alt="">
+            <a class="link-img" href="" target="_blank">Link da Imagem</a>
+            <p>As Olimpíadas representam o maior evento esportivo global, reunindo atletas de todos os continentes a cada quatro anos, nas edições de verão e inverno, além das Paraolimpíadas para atletas com deficiência. O principal objetivo é promover a paz, a integração e a união entre os países, conforme estipulado no Estatuto Olímpico, que visa o desenvolvimento harmonioso da humanidade através do esporte.</p>
+        </div>
+        <div class="bloco">
+            <h3>Origem das Olimpíadas</h3>
+            <p>Os Jogos Olímpicos têm suas origens na Antiguidade, começando por volta de 776 a.C. na cidade grega de Olímpia, localizada no sudoeste da Grécia. Os jogos eram realizados em homenagem a Zeus, o rei dos deuses na mitologia grega, e estavam profundamente ligados a rituais religiosos. A primeira edição oficial é datada de 776 a.C., mas os jogos podem ter origens mais antigas. Eles eram realizados a cada quatro anos, um período que correspondia ao ciclo de uma grande festividade religiosa.</p>
+            <p>Durante a competição, as cidades-estado gregas observavam uma trégua, conhecida como "Ekecheiria", que permitia a segurança dos atletas e espectadores durante o evento. As competições aconteciam em Olímpia, e o anúncio do evento era feito por mensageiros que percorriam as regiões para garantir que todos pudessem viajar em segurança. Mulheres, estrangeiros e escravos eram proibidos de participar ou até mesmo assistir aos jogos. Vencedores recebiam uma coroa de oliveira, símbolo de supremacia moral e espiritual. Em 393 d.C., o imperador romano Teodósio I baniu os Jogos Olímpicos, encerrando sua prática na Antiguidade.</p>
+        </div>
+        <div class="bloco">
+            <h3>Olimpíadas na modernidade</h3>
+            <p>Os Jogos Olímpicos modernos foram revividos em 1896 por Pierre de Coubertin, o fundador do Comitê Olímpico Internacional (COI), e ocorreram em Atenas, na Grécia. Essa edição contou com a participação de 13 países e 241 atletas homens, pois as mulheres ainda eram excluídas. As modalidades incluíam atletismo, ciclismo, esgrima, ginástica, halterofilismo, luta, natação e tênis. A premiação com medalha de ouro começou apenas em 1904, substituindo as medalhas de prata e cobre, e os vencedores na primeira edição receberam medalhas de prata, com ramos de louro para os segundos colocados.</p>
+            <p>As Olimpíadas foram interrompidas em 1916 devido à Primeira Guerra Mundial e novamente em 1940 e 1944 por causa da Segunda Guerra Mundial. Em 2016, o Rio de Janeiro sediou os Jogos Olímpicos, com a participação de mais de 10.500 atletas em 41 modalidades. Nessa edição, o golfe e o rúgbi foram reintegrados aos Jogos, após estarem ausentes desde 1924.</p>
+        </div>
+        <div class="bloco">
+        <h3>Curiosidades das Olimpíadas</h3>
+        <ol id="His_FlagF" class="curiosidades">
+            <li>Olimpíada mais longa: Em 1908, Londres sediou a Olimpíada que durou 191 dias, de 27 de abril a 31 de outubro. Essa edição é conhecida por seu longo período devido a ajustes nos eventos e à inclusão de novas modalidades.</li>
+            <li>Primeira mulher brasileira: Maria Lenk foi a primeira mulher brasileira a competir em uma Olimpíada, participando dos Jogos de Los Angeles em 1932, onde competiu na natação.</li>
+            <li>Primeira transmissão via satélite: Os Jogos Olímpicos de Roma em 1960 foram os primeiros a serem transmitidos via satélite para mais de 200 milhões de pessoas em 18 países europeus, marcando um grande avanço na cobertura midiática dos eventos.</li>
+            <li>Atleta com mais medalhas: Michael Phelps, nadador dos Estados Unidos, detém o recorde de mais medalhas olímpicas da história, com um total de 28 medalhas, incluindo 23 de ouro, conquistadas ao longo de cinco edições dos Jogos Olímpicos (2004, 2008, 2012, 2016 e 2020).</li>
+            <li>Primeira mascote olímpica: A primeira mascote oficial dos Jogos Olímpicos foi Waldi, um cachorro da raça Dachshund, durante os Jogos de Munique em 1972. Waldi simbolizava a agilidade e a resistência, qualidades desejáveis nos atletas olímpicos.</li>
+        </ol>
+        </div>
+    <!--História do Flag Football:-->
+        <div class="bloco">
+            <h2>História do Flag Football</h2>
+            <img src="flagfundo3.jpg">
+            <a class="link-img" href="" target="_blank">Link da Imagem</a>
+        </div>
+        <div class="bloco">
+            <h3>Origem</h3>
+            <p>O Flag Football começou a se desenvolver nos anos 40, como uma atividade recreativa em bases militares americanas. A modalidade surgiu como uma versão não-contata do futebol americano, permitindo que os soldados se exercitassem e competissem sem o impacto físico do jogo tradicional. Nos anos 50, surgiram ligas recreativas em várias regiões dos EUA, com a primeira liga nacional estabelecida em 1960 em St. Louis, Missouri. O esporte ganhou popularidade e se expandiu internacionalmente através de programas de desenvolvimento e a criação de ligas nacionais. Em 1997, foi criada a Federação Internacional de Flag Football (IFFF), que organiza a Copa do Mundo de Flag Football. A primeira edição da Copa do Mundo foi realizada em 2000 na cidade de Cancún, México. O Flag Football é caracterizado por sua natureza inclusiva, podendo ser praticado por pessoas de diversos tipos físicos, e é uma excelente alternativa para as aulas de educação física nas escolas, promovendo a inclusão e a prática esportiva.</p>
+        </div>
+        <div class="bloco">
+            <h3>As ligas Americanas</h3>
+            <p>Após a Segunda Guerra Mundial, as ligas de Flag Football nos EUA começaram a se expandir rapidamente. A National Flag & Touch Football League (NTFL) foi uma das ligas mais proeminentes e influentes por mais de 15 anos, contribuindo para o desenvolvimento e popularização do esporte. Atualmente, os EUA possuem centenas de ligas de Flag Football, refletindo a grande popularidade do esporte no país. A American Flag Football League (AFFL), inaugurada em 2018, é uma das mais recentes e notáveis, contando com ex-jogadores da NFL e oferecendo prêmios superiores a 2 milhões de dólares. A AFFL é conhecida por seu alto nível de competição e pela presença de atletas de renome.</p>
+        </div>
+        <div class="bloco">
+            <h3>No mundo</h3>
+            <p>O Flag Football é uma modalidade democrática praticada globalmente com variações regionais. Desde 2002, a IFAF (International Federation of American Football) organiza o Mundial de Flag Football, que ocorre a cada dois anos. As seleções dos EUA, Canadá, México e Áustria são destaque nas competições internacionais. As seleções masculinas da Áustria e dos EUA dominam o torneio, com cada uma conquistando dois títulos. No feminino, o México lidera com três títulos, seguido pelo Canadá com dois. Na América, o Flag Football tem uma presença significativa não só nos EUA e no Canadá, mas também no México e no Panamá, onde há fortes ligas nacionais e uma crescente base de praticantes de todas as idades. Na Europa, o Big Bowl, realizado na Alemanha, é o torneio de Flag Football mais tradicional e prestigioso. Em 2018, as vagas para as competições masculina e feminina se esgotaram em menos de 10 minutos, demonstrando a popularidade e a alta demanda pelo torneio.</p>
+        </div>
+        <div class="bloco">
+            <h3>No Brasil</h3>
+            <img src="flagfundo7.webp" alt="">
+            <a class="link-img" href="https://s2-oglobo.glbimg.com/RpHdQcSVJjVi-ghifvTD6A5dITw=/0x0:1600x1066/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/N/F/MB5HHjSWOBxxCJ2fEMTw/whatsapp-image-2023-10-14-at-17.53.56.jpeg" target="_blank">Link da Imagem</a>
+            <p id="Regras">O Flag Football chegou ao Brasil nos anos 90, impulsionado pela crescente popularidade do Futebol Americano e pela transmissão de jogos pela ESPN, incluindo o Sunday Night Football e o Monday Night Football. Desde então, a modalidade tem crescido significativamente. No Brasil, as versões mais comuns do Flag Football são o 8×8 e o 5×5. São Paulo é o principal centro do Flag Football nacional, com várias ligas e torneios importantes. A LPFA (Liga Paulista de Futebol Americano), que foi extinta, a APFA (Associação Paulista de Futebol Americano) e a FEFASP (Federação de Futebol Americano de São Paulo) têm desenvolvido a modalidade desde o início dos anos 2000, com um aumento significativo na popularidade a partir de 2012. O Paulista de Flag, organizado pela APFA, é atualmente o maior torneio de Flag Football do Estado, abrangendo as modalidades 8×8 masculino e 5×5 feminino. O primeiro torneio nacional de Flag Football 5×5 foi realizado em 2012 em Salto, São Paulo, com a equipe Palmeiras Locomotives vencendo a final contra o Fluminense Guerreiras. O Circuito Nacional de Flag Football, iniciado em 2013, é o maior torneio de Flag 5×5 do país, consistindo em três fases: Regionais, Semi-Finais (Playoffs) e a Super Final. A última edição do campeonato, realizada em 2017, contou com 19 equipes masculinas e 23 femininas. Atualmente, o Cadastro Nacional de Equipes registra mais de 100 equipes de Flag Football 5×5 no Brasil, refletindo o crescimento e o desenvolvimento contínuo da modalidade no país.</p>
+        </div>
+    <!--Regras:-->
+        <div class="bloco">
+            <h2>Regras do Flag football:</h2>
+            <img src="flagfundo5.webp">
+            <a class="link-img" href="https://www.gannett-cdn.com/presto/2019/07/25/PMOY/5323b3a3-7147-4b60-a75d-e9d932312703-flag_football.jpg?crop=2373,1335,x0,y0&width=3200&height=1680&fit=bounds" target="_blank">Link da Imagem</a>
+        </div>
+    <!--Tópico 1-->
+        <div class="bloco">
+            <h3>Número de Jogadores</h3>
+            <p>O número de jogadores em campo pode variar conforme a liga, mas normalmente são <b>7</b> ou <b>8</b> jogadores por equipe.</p>
+        </div>
+    <!--Tópico 2-->
+        <div class="bloco">
+            <h3>Campo</h3>
+            <img src="campoflag.gif">
+            <a class="link-img" href="https://flagfootballbrasil.com.br/wp-content/uploads/2018/09/zonasemcorrida.gif" target="_blank">Link da Imagem</a>
+            <p>O campo de Flag Football geralmente é menor que o campo de futebol americano tradicional, com dimensões que variam, mas tipicamente são cerca de <b>60</b> a <b>80</b> jardas de comprimento e <b>20</b> a <b>30</b> jardas de largura.</p>
+        </div>
+    <!--Tópico 3-->
+        <div class="bloco">
+            <h3>Duração do Jogo</h3>
+            <p>O jogo é dividido em dois tempos, que podem variar em duração dependendo da liga, mas comumente são de <b>20</b> a <b>25</b> minutos cada. O intervalo entre os tempos também pode variar, mas geralmente é de <b>5</b> a <b>10</b> minutos.</p>
+        </div>
+    <!--Tópico 4-->
+        <div class="bloco">
+            <h3>Objetivo do Jogo</h3>
+            <p>O objetivo é marcar pontos avançando a bola até a zona de touchdown do adversário. Os touchdowns valem normalmente <b>6</b> pontos.</p>
+        </div>
+    <!--Tópico 5-->
+        <div class="bloco">
+            <h3>Início do Jogo e Reposições</h3>
+            <img src="flagfundo8.jpg">
+            <a class="link-img" href="https://conteudo.imguol.com.br/c/esporte/f3/2023/09/11/eua-foram-campeoes-do-world-games-no-flag-football-1694464467178_v2_4x3.jpg" target="_blank">Link da Imagem</a>
+            <p>O jogo começa com um chute inicial ou "kickoff" a partir da linha de <b>5</b> ou <b>10</b> jardas do lado do time que receberá a bola.</p>
+        </div>
+    <!--Tópico 6-->
+        <div class="bloco">
+            <h3>Avanço da Bola</h3>
+            <p>A equipe tem um número limitado de jogadas (normalmente 4) para avançar 10 jardas e continuar a posse da bola. Se não conseguir, a posse da bola é entregue ao time adversário.</p>
+        </div>
+    <!--Tópico 7-->
+        <div class="bloco">
+            <h3>Contato</h3>
+            <p>O contato físico é minimizado no Flag Football. Em vez de taclear, o jogador deve remover a bandeira do adversário para parar a jogada. Se a bandeira for removida ou se o jogador cair, a jogada é considerada encerrada.</p>
+        </div>
+    <!--Tópico 8-->
+        <div class="bloco">
+            <h3>Passes</h3>
+            <p>Apenas um passe para frente é permitido por jogada. Passes para trás (ou laterais) são permitidos e podem ser realizados em qualquer momento.</p>
+        </div>
+    <!--Tópico 9-->
+        <div class="bloco">
+            <h3>Faltas e Penalidades</h3>
+            <img src="flagfundo4.webp">
+            <a class="link-img" href="" target="_blank">Link da Imagem</a>
+            <p>Existem várias faltas e penalidades que podem ocorrer, incluindo holding (segurar), pass interference (interferência no passe), e offside (impedimento). As penalidades geralmente resultam em perda de jardas.</p>
+        </div>
+    <!--Tópico 10-->
+        <div class="bloco">
+            <h3>Jogadas Especiais</h3>
+            <p>Em algumas ligas, há regras específicas para jogadas especiais como punts (Chute realizado quando o time não consegue avançar a bola. Usado para ganhar território e dar ao time adversário uma posição mais distante para começar sua próxima jogada) e field goals (Tentativa de marcar pontos chutando a bola através das traves do gol adversário. Usado quando o time está dentro do alcance para um chute preciso) que podem não ser permitidos ou ter variações nas suas execuções.</p>
+        </div>
+    <!--Tópico 11-->
+        <div class="bloco">
+            <h3>Substituições</h3>
+            <p>As substituições podem ser feitas a qualquer momento durante o jogo, mas devem ser feitas de forma que não causem interrupções desnecessárias.</p>
+        </div>
+    <!--Tópico 12-->
+        <div class="bloco">
+            <p>São similares às do futebol americano, mas em vez de derrubar o jogador com a bola ao chão, o defensor deve retirar uma fita e parar o ataque. Todos os jogadores usam um cinto, onde as duas flags (ou fitas) estão presas por um velcro.</p>
+        </div>
+    <!--Acessórios:-->
+        <div id="Acessorios" class="bloco">
+            <h2>Acessórios do Flag football:</h2>
+            <img src="">
+            <a class="link-img" href="https://www.indystar.com/gcdn/-mm-/6cdada18d0361d2c397394a7daacca1611591b1e/c=0-182-4060-2476/local/-/media/2018/07/14/INGroup/Indianapolis/636671862679107705-fightingcancervsthemoneyteam-esc001.JPG?width=660&height=373&fit=crop&format=pjpg&auto=webp" target="_blank">Link da Imagem</a>
+        </div>
+    <!--Fontes e Autores da página-->
+        <h3>Fontes de nossa pesquisa:</h3>
+        <a class="link-img" href="https://brasilescola.uol.com.br/educacao-fisica/olimpiadas.htm" target="_blank">Brasil Escola - Olimpíadas</a>
+        <a class="link-img" href="https://www.unifunvic.edu.br/component/k2/item/45-esporte,-jogo,-regras,-hist%C3%B3ria-flagbol#:~:text=O%20Flagbol%20come%C3%A7ou%20a%20desenvolver,Luis." target="_blank">UniFUNVIC - Flag Football</a>
+    </div>
+    <footer>
+        <p>&copy;2024, Kaliel, Kaio e Suellen</p>
+    </footer>
+</body>
+</html>
