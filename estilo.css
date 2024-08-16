@@ -1,0 +1,195 @@
+/*NÃO ENSINOU AINDA*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+/*NÃO ENSINOU AINDA*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    background: rgb(131, 24, 24);
+    box-shadow: 5px 5px 15px rgba(70, 69, 69, 0.219);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+/*Links da navbar*/
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li {
+    margin: 0 15px;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav-links a:hover {
+    border-top: 2px solid #fff;
+}
+/*Espaçamentos*/
+.bloco.um{
+    margin-top: 600px;
+}
+.bloco{
+    width: 50%;
+    margin: 50px;
+    margin-left: 25%;
+}
+p{
+    text-indent: 40px;
+}
+.curiosidades li, h2,h3{
+    margin-bottom: 15px;
+}
+.imagemfundo{
+    z-index: -10;
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 600px;
+    background-image: url("flagfundo2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.textoimagem{
+    color: #360000;
+    background: rgba(163, 163, 163, 0.705);
+    padding: 40px 20px;
+    height: 250px;
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    transform: translate(-60%,-80%);
+    width: 30%;
+    box-shadow: 5px 5px 15px rgba(70, 69, 69, 0.219);
+    border-radius: 30px;
+}
+.textoimagem h2{
+    text-align: center;
+    font-size: 50px;
+}
+.textoimagem h6{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 100;
+}
+img{
+    width: 675px;
+}
+.link-img{
+    font-size: 13px;
+    display: block;
+    margin-bottom: 40px;
+}
+.link-img, .link-img:visited{
+    color: red;
+}
+.fundobranco{
+    z-index: 1;
+    box-shadow: 5px 5px 15px rgba(70, 69, 69, 0.219);
+    background: #fff;
+    padding-bottom: 10px;
+}
+h2.um{
+    padding-top: 80px;
+}
+h3{
+    color: #880000;
+}
+footer{
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    height: 100px;
+    background-color: #360000;
+    width: 100%;
+}
+.vermelho{
+    background: rgb(131, 24, 24);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+.vermelho a{
+    font-size: 13px;
+    color: #fff;
+    text-decoration:none;
+    margin: 0 2% 0 0;
+}
+.vermelho h3{
+    font-size: 13px;
+    color: #fff;
+    margin:0 0 0 2%;
+}
+.acessorios h2, .acessorios a{
+    text-align: center;
+}
+.linha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.linha.dois{
+    margin-left: 8%;
+    width:80%;
+    justify-content: left;
+    top: 70%;
+}
+.card{
+    width: 30%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    background-color: rgba(163, 163, 163, 0.705);
+    padding: 40px 20px;
+    margin: 5%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(48, 48, 48, 0.842);
+}
+.card p, .card h3{
+    text-align: center;
+    text-indent: 0;
+}
+.imagemcards{
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background-image: url("flagfundo6.jpeg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 5px 15px rgba(70, 69, 69, 0.219);
+}
