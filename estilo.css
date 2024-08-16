@@ -18,6 +18,10 @@ header{
     background: rgb(131, 24, 24);
     box-shadow: 5px 5px 15px rgba(70, 69, 69, 0.219);
 }
+.bolalogo{
+    margin-right: 10px;
+    width: 25px;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
