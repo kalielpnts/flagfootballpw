@@ -54,7 +54,12 @@ header{
 .nav-links a:hover {
     background: #410f0f;
     padding: 29px 15px;
-    transition: ease-in-out 0.4s;
+    transition: ease-in-out 0.3s;
+}
+.olimloginho{
+    margin-right: 10px;
+    width: 80px;
+    margin-left: 20px;
 }
 /*Espaçamentos*/
 .bloco.um{
