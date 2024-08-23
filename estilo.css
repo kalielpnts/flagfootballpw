@@ -100,7 +100,8 @@ p{
     border-radius: 30px;
 }
 .textoimagem:hover{
-    background: rgba(142, 119, 119, 0.705);
+    color:#880000;
+    background: rgb(212, 212, 212);
     transition: ease-in-out 0.4s;
 }
 .textoimagem h2{
@@ -205,4 +206,8 @@ footer{
     background-size: cover;
     background-position: center;
     box-shadow: 5px 5px 15px rgba(70, 69, 69, 0.219);
+}
+.card:hover{
+    background-color: rgb(194, 194, 194);
+    transition: ease-in-out 0.4s;
 }
