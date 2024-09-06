@@ -30,7 +30,7 @@ header{
     align-items: center;
     width: 100%;
 }
-img{
+img, video{
     width: 675px;
 }
 h3{
