@@ -19,3 +19,37 @@ document.addEventListener('DOMContentLoaded', () => {
 
     updateSlidePosition();
 });
+/*
+document.getElementById('card1').addEventListener('click', function() {
+    this.classList.toggle('opacidade-zero');
+});
+document.getElementById('card2').addEventListener('click', function() {
+    this.classList.toggle('opacidade-zero');
+});
+document.getElementById('card3').addEventListener('click', function() {
+    this.classList.toggle('opacidade-zero');
+});
+document.getElementById('card4').addEventListener('click', function() {
+    this.classList.toggle('opacidade-zero');
+});
+document.getElementById('card5').addEventListener('click', function() {
+    this.classList.toggle('opacidade-zero');
+}); */
+
+
+
+document.getElementById('card1').addEventListener('click', function() {
+    this.classList.toggle('mostrar');
+});
+document.getElementById('card2').addEventListener('click', function() {
+    this.classList.toggle('mostrar');
+});
+document.getElementById('card3').addEventListener('click', function() {
+    this.classList.toggle('mostrar');
+});
+document.getElementById('card4').addEventListener('click', function() {
+    this.classList.toggle('mostrar');
+});
+document.getElementById('card5').addEventListener('click', function() {
+    this.classList.toggle('mostrar');
+});
