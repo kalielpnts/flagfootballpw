@@ -9,6 +9,7 @@ html {
 }
 /*Estilos gerais*/
 body{
+    user-select: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
@@ -200,16 +201,45 @@ h2.um{
     display: flex;
     justify-content: center;
     flex-flow: column;
-    background-color: rgba(163, 163, 163, 0.705);
     padding: 40px 20px;
     margin: 5%;
     border-radius: 20px;
-    box-shadow: 5px 5px 15px rgba(48, 48, 48, 0.842);
+    border: dashed 2px #880000;
 }
 .card p, .card h3{
+    display: none;
+}
+.card h2{
+    color: #880000;
     text-align: center;
     text-indent: 0;
 }
+.mostrar{
+    border: none;
+    background-color: rgba(163, 163, 163, 0.705);
+    box-shadow: 5px 5px 15px rgba(48, 48, 48, 0.842);
+    transition: ease-in-out 0.4s;
+}
+.mostrar p, .mostrar h3{
+    display: block;
+    text-align: center;
+    text-indent: 0;
+} 
+.mostrar h2{
+    display: none;
+}
+
+/*Animação card*/
+
+.card.mostrar:hover{
+    background-color: rgb(194, 194, 194);
+    transition: ease-in-out 0.4s;    
+}
+.card:hover{
+    background-color: none;
+}
+
+
 .imagemcards{
     position: relative;
     width: 100%;
@@ -218,13 +248,6 @@ h2.um{
     background-size: cover;
     background-position: center;
     box-shadow: 5px 5px 15px rgba(70, 69, 69, 0.219);
-}
-
-/*Animação card*/
-
-.card:hover{
-    background-color: rgb(194, 194, 194);
-    transition: ease-in-out 0.4s;
 }
 
 /*Fim de página*/
@@ -296,6 +319,13 @@ footer{
     cursor: pointer;
     font-size: 24px;
     z-index: 1;
+}
+
+.seta:hover{
+    background: #410f0f;
+    font-size: 27px;
+    padding: 10px 15px;
+    transition: ease-in-out 0.4s;
 }
 
 .esquerda {
