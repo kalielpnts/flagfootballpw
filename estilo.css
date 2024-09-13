@@ -260,7 +260,7 @@ h2.um{
     width: 100%;
     padding: 10px;
 }
-.vermelho a{
+.vermelho a, .vermelho a :visited{
     font-size: 13px;
     color: #fff;
     text-decoration:none;
